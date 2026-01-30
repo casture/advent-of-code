@@ -9,6 +9,7 @@ fn main() {
         Some("01") => days::d01::run(example),
         Some("02") => days::d02::run(example),
         Some("03") => days::d03::run(example),
+        Some("04") => days::d04::run(example),
         _ => {
             eprintln!("Usage: cargo run -- <day> [--example]");
             eprintln!("Example: cargo run -- 01 --example");
